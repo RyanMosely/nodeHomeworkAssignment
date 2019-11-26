@@ -1,0 +1,55 @@
+body {
+    
+    display: block;
+    text-align: center;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    background-color: #879cdf;
+}
+
+.mainSection {
+    background-color: #e9edee;
+    padding: 3%;
+    margin-top: -2%;
+    margin-bottom: 20%;
+}
+
+.headSection {
+    background-color: #ff8374;
+    color: white;
+    padding: 3%;
+    padding-top: 8%;
+    margin-top: -7%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.allCards {
+    background-color: #ff8374;
+    margin: 10px;
+    color: white;
+}
+
+.cardsHead {
+    text-align: center;
+    padding: 35px;
+}
+
+
+img {
+   position: relative;
+   z-index: 4;
+    margin-left: auto;
+    margin-right: auto;
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    border: solid 7px #fee14c;
+    object-fit: cover;
+}
