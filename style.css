@@ -1,6 +1,7 @@
 body {
     
     display: block;
+    font-family: 'Unna', serif;
     text-align: center;
     margin: 8px;
     margin-top: 8px;
@@ -8,6 +9,7 @@ body {
     margin-bottom: 8px;
     margin-left: 0px;
     background-color: #879cdf;
+    font-family: serif
 }
 
 .mainSection {

@@ -1,10 +1,4 @@
-
-const fs = require("fs");
-var pdf = require('html-pdf');
-
-
-
-var html = `<head>
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -67,6 +61,12 @@ border: solid 7px #fee14c;
 object-fit: cover;
 }
 
+.row .col-6{
+  margin: 0px !important;
+    padding: 0px !important;
+    text-align: center
+}
+
 
 </style>
 
@@ -75,13 +75,13 @@ object-fit: cover;
 <body>
 
 <div class="test">
-    <img src="https://avatars3.githubusercontent.com/u/51306056?v=4" class=proPic alt="Cats">
+    <img src=${jData.picture} class=proPic alt="Cats">
 </div>
     
 
     <div class="card headSection">
             <div class="card-body howdy">
-              
+             Hi! <br> <br> My name is ${jData.userName}
             </div>
           </div>
 
@@ -89,32 +89,8 @@ object-fit: cover;
   <div class="card mainSection">
     <div class="card-body">
 
-        <div class="cardsHead">I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
-                I build things and teach people to code
+        <div class="cardsHead">
+        ${jData.bio}
 
         </div>
 
@@ -221,27 +197,4 @@ console.log(data);
   <script src="script.js"></script>
   <script src="index.js"></script>
 
-</body>`
-var options = {  
-    "border": {
-        "top": "2in",            // default is 0, units: mm, cm, in, px
-        "right": "1in",
-        "bottom": "2in",
-        "left": "1.5in",},
-
-        "height": "20in",        // allowed units: mm, cm, in, px
-        "width": "18in",        // allowed units: mm, cm, in, px
-
-        "base": "./style.css"
-      }
-
-               
- 
-
-
-
-
-pdf.create(html, options).toFile('./prof.pdf', function(err, res) {
-  if (err) return console.log(err);
-  console.log(res); // { filename: '/app/businesscard.pdf' }
-});
+</body>
