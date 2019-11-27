@@ -248,7 +248,7 @@ h3{
 
             <div class="container">
                     <div class="row">
-                      <div class="col-xs-6">
+                      <div class="col-sm-6">
 
         <div class="card allCards topLeft">
             <div class="card-body">
@@ -258,7 +258,7 @@ h3{
 
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-sm-6">
 
           <div class="card allCards topRight">
             <div class="card-body">
@@ -270,7 +270,7 @@ h3{
           </div>
 
           <div class="row">
-                <div class="col-xs-6">
+                <div class="col-sm-6">
 
           <div class="card allCards bottomLeft">
             <div class="card-body">
@@ -280,7 +280,7 @@ h3{
 
           </div>
 
-          <div class="col-xs-6">
+          <div class="col-sm-6">
 
           <div class="card allCards bottomRight">
             <div class="card-body">

@@ -12,11 +12,11 @@ To access this application, please follow the instructions below:
 
 ## Usage
 
-1.) Within the cloned respository in the terminal,  assuming you have node.js installed on your computer, type 'node index.js' and press enter, you will then be prompted to answer two questions
+1.) Within the cloned respository in your terminal,  assuming you have node.js installed on your computer, type 'node index.js' and press enter, you will then be prompted to answer two questions
                 - What is your github username?
                 - What is your favorite color?
                 
-2.) Given that you have answered with a valid username and color, a pdf will then be populated with:
+2.) Given that you have answered with a valid username and color, a pdf named 'prof.pdf' will then be populated with:
         
 - A profile image
 - Your user name
@@ -36,4 +36,4 @@ To access this application, please follow the instructions below:
                 
 ## Conclusion
 
-Within the course of completing this assignment, I learned the most about the process of applying node.js, npm packages, and the application of es6 within my javascript. What I struggled with the most at the beginning was just understanding the concepts of node, it just felt really new to me; the application of different npm packages, going through new documentation of how to apply the new modules felt really convoluted at first, but now I can see how useful it can be. Though I've only scratched the surface of es6, I am excited to learn more new ways I can apply that version of javascript to write cleaner/more efficient code. My personal favorite is the way template strings are applied; it made creating this application a bit easier. My biggest motivation in completing this assignment was that I was constantly running into concepts that I did not understand; such as understanding node and alot of es6 concepts. If I don't understand a concept, it drives my curiosity. I think what will make my project stand out is how clean the pdf file is portrayed!
+Within the course of completing this assignment, I learned the most about the process of applying node.js, npm packages, and the application of es6 within javascript. What I struggled with the most at the beginning was just understanding the concepts of node, it just felt really new to me. The application of different npm packages and going through new documentation of how to apply the new modules felt really convoluted at first, but now I can see how useful it can be. Though I've only scratched the surface of es6, I am excited to learn more new ways I can apply that version of javascript to write cleaner/more efficient code. My personal favorite is the way template strings are applied; it made creating this application a bit easier. My biggest motivation in completing this assignment was that I was constantly running into concepts that I did not understand; such as understanding node and alot of es6 concepts. If I don't understand a concept, it drives my sense of curiosity to learn more. I think what will make my project stand out is how clean the pdf file is portrayed!
