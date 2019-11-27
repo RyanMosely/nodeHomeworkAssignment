@@ -32,7 +32,7 @@ To access this application, please follow the instructions below:
 - Amount of GitHub stars
 - Amount of users following
 
-![ProfileImage](RyanMoselyProfPdf.pdf)
+![ProfileImage](profRyanMosely.png)
                 
 ## Conclusion
 
